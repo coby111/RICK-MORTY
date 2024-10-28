@@ -1,0 +1,90 @@
+- app/
+  - (tabs)/
+  - auth/
+      - login.tsx
+  -characters/
+      - CharactersListsScreen.tsx
+  -episodes/
+      - EpisodesListsScreen.tsx
+  -locations/
+      - LocationsListsScreen.tsx
+  - home.tsx
+  - index.tsx
+  - _layout.tsx
+  - +html.tsx
+  - +not-fuund.tsx
+
+- assets/
+  - images/
+    - rick/
+      - image.png
+  - fonts/
+
+- components/
+  - __tests__/
+  - features/
+    - characters/
+      - application/
+        - providers/
+          - CharactersProvider.tsx
+        - screens/
+          - CharacterCard.tsx
+      - domain/
+        - datasources/
+          - CharactersDatasource.ts
+        - entities/
+          - Character.ts
+          - CharacterResult.ts
+        - repositories/
+          - CharactersRepository.ts
+      - infrastructure/
+        - datasources/
+          - CharactersDatasourceImp.ts
+        - repositories/
+          - CharactersRepositoryImp.ts
+    - episodes/
+      - application/
+        - providers/
+        - screens/
+      - domain/
+        - datasources
+        - entities
+        - repositories
+      - infrastructure/
+        - datasources/
+        - repositories/
+    - locations/
+      - application/
+        - providers/
+        - screens/
+      - domain/
+        - datasources
+        - entities
+        - repositories
+      - infrastructure/
+        - datasources/
+        - repositories/
+    - auth/
+      - application/
+        - providers/
+        - screens/
+      - domain/
+        - datasources
+        - entities
+        - repositories
+      - infrastructure/
+        - datasources/
+        - repositories/
+
+- constants/          
+  - api.ts
+  - colors.ts
+  - firebaseConfi.ts
+
+- hooks/
+- scripts/            
+- node_modules/       
+- app.json            
+- babel.config.js     
+- package.json        
+- tsconfig.json       
